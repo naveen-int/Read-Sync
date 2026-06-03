@@ -37,15 +37,19 @@ Library users often struggle to find books that match their interests, preferenc
 
 ## Workflow
 
-- Home Page
-  - User Module
-    - Login / Register
-    - Enter Book Preferences
-    - View Recommended Books
-    - View Available & Popular Books
-  - Library Module
-    - Login / Register
-    - View Available Books
-    - Add Issue Record
-    - View Active Records
-    - Delete Returned Records
+```text
+Home Page
+│
+├── User Module
+│   ├── Login / Register
+│   ├── Enter Book Preferences
+│   ├── View Recommended Books
+│   └── View Available & Popular Books
+│
+└── Library Module
+    ├── Login / Register
+    ├── View Available Books
+    ├── Add Issue Record
+    ├── View Active Records
+    └── Delete Returned Records
+```
