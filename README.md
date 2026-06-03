@@ -1,2 +1,27 @@
 # Read-Sync
-Smart Library Management &amp; Book Recommendation
+
+## Project Title
+
+Smart Library Management & Book Recommendation System
+
+## Project Overview
+
+Smart Library Management & Book Recommendation System is a web-based application that recommends books based on user interests and preferences. It also includes basic library management features such as displaying popular books, and managing book issue and return activities.
+
+---
+
+## Problem Statement
+
+Library users often struggle to find books that match their interests, preferences, and reading requirements. At the same time, managing book issue and return records can become challenging as the number of books and users increases. This can reduce the efficiency of library services and the overall user experience.
+
+---
+
+## Objectives
+
+- Smart library management processes.
+- Manage books, users, and transactions efficiently.
+- Track book issue and return activities.
+- Provide personalized book recommendations.
+- Improve user experience and library efficiency.
+
+
