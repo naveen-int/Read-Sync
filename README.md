@@ -37,6 +37,7 @@ Library users often struggle to find books that match their interests, preferenc
 
 ## Workflow
 
+```text
 Home Page
 │
 ├── User Module
@@ -51,5 +52,5 @@ Home Page
     ├── Add Issue Record
     ├── View Active Records
     └── Delete Returned Records
-
+```
 
