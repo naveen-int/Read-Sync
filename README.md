@@ -24,4 +24,13 @@ Library users often struggle to find books that match their interests, preferenc
 - Provide personalized book recommendations.
 - Improve user experience and library efficiency.
 
+---
+
+## Features
+- User Login & Registration
+- Personalized Book Recommendations
+- Display Popular Books
+- Book Issue Management
+- Book Return Management
+
 
