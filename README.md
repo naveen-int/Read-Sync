@@ -35,7 +35,7 @@ Library users often struggle to find books that match their interests, preferenc
 
 ---
 
-## Workflow
+## Modules & Workflow
 
 ```text
 Home Page
