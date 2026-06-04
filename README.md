@@ -12,7 +12,7 @@ Smart Library Management & Book Recommendation System is a web-based application
 
 ## Problem Statement
 
-Library users often struggle to find books that match their interests, preferences, and reading requirements. At the same time, managing book issue and return records can become challenging as the number of books and users increases. This can reduce the efficiency of library services and the overall user experience.
+Library users often struggle to find books that match their interests, preferences, and reading requirements. At the same time, managing book issue and return records can become challenging. This can reduce the efficiency of library services and the overall user experience.
 
 ---
 
