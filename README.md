@@ -53,3 +53,43 @@ Home Page
     ├── View Active Records
     └── Delete Returned Records
 ```
+---
+
+## Database Requirement Analysis
+
+### Database Tables
+
+#### Users
+
+| Field Name | Data Type |
+|------------|------------|
+| user_id | INT |
+| name | VARCHAR(100) |
+| email | VARCHAR(100) |
+| password | VARCHAR(100) |
+| role | VARCHAR(20) |
+
+#### Books
+
+| Field Name | Data Type |
+|------------|------------|
+| book_id | INT |
+| book_name | VARCHAR(200) |
+| genre | VARCHAR(50) |
+| category | VARCHAR(50) |
+| author_type | VARCHAR(20) |
+| language | VARCHAR(20) |
+| rating | VARCHAR(20) |
+| availability | VARCHAR(20) |
+
+#### Issue Records
+
+| Field Name | Data Type |
+|------------|------------|
+| record_id | INT |
+| user_no | VARCHAR(20) |
+| book_id | INT |
+| book_name | VARCHAR(200) |
+| due_date | DATE |
+
+---
