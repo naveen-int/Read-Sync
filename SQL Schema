@@ -1,0 +1,35 @@
+## SQL Schema
+
+```sql
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100),
+    role VARCHAR(20)
+);
+
+CREATE TABLE Books (
+    book_id INT PRIMARY KEY AUTO_INCREMENT,
+    book_name VARCHAR(200),
+    genre VARCHAR(50),
+    category VARCHAR(50),
+    author_type VARCHAR(20),
+    language VARCHAR(20),
+    rating VARCHAR(20),
+    availability VARCHAR(20)
+);
+
+CREATE TABLE Issue_Records (
+    record_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_no VARCHAR(20),
+    book_id INT,
+    book_name VARCHAR(200),
+    due_date DATE,
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
+```
+
+## Database Description
+
+The database consists of three tables: Users, Books, and Issue_Records. The Books table stores the dataset used for recommendations, while Issue_Records stores issued book information. Users and library staff access the system through the Users table.
